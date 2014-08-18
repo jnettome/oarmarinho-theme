@@ -1,0 +1,199 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '.' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.30
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json oarmarinho@0.0.0 No description
+6 warn package.json oarmarinho@0.0.0 No repository field.
+7 warn package.json oarmarinho@0.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ '/Users/jnettome/Projects/oarmarinho',
+9 verbose install   [ 'grunt',
+9 verbose install     'grunt-contrib-copy',
+9 verbose install     'grunt-contrib-concat',
+9 verbose install     'grunt-contrib-uglify',
+9 verbose install     'grunt-contrib-less',
+9 verbose install     'grunt-contrib-jshint',
+9 verbose install     'grunt-contrib-cssmin',
+9 verbose install     'grunt-contrib-connect',
+9 verbose install     'grunt-contrib-clean',
+9 verbose install     'grunt-contrib-htmlmin',
+9 verbose install     'grunt-bower-install',
+9 verbose install     'grunt-contrib-imagemin',
+9 verbose install     'grunt-contrib-watch',
+9 verbose install     'grunt-rev',
+9 verbose install     'grunt-autoprefixer',
+9 verbose install     'grunt-usemin',
+9 verbose install     'grunt-mocha',
+9 verbose install     'grunt-modernizr',
+9 verbose install     'grunt-newer',
+9 verbose install     'grunt-svgmin',
+9 verbose install     'grunt-concurrent',
+9 verbose install     'load-grunt-tasks',
+9 verbose install     'time-grunt',
+9 verbose install     'jshint-stylish' ] ]
+10 info preinstall oarmarinho@0.0.0
+11 verbose readDependencies using package.json deps
+12 verbose already installed skipping grunt-contrib-uglify@~0.4.0 /Users/jnettome/Projects/oarmarinho
+13 verbose already installed skipping grunt-contrib-less@~0.11.0 /Users/jnettome/Projects/oarmarinho
+14 verbose already installed skipping grunt-contrib-jshint@~0.9.2 /Users/jnettome/Projects/oarmarinho
+15 verbose already installed skipping grunt-contrib-cssmin@~0.9.0 /Users/jnettome/Projects/oarmarinho
+16 verbose already installed skipping grunt-contrib-connect@~0.7.1 /Users/jnettome/Projects/oarmarinho
+17 verbose already installed skipping grunt-contrib-clean@~0.5.0 /Users/jnettome/Projects/oarmarinho
+18 verbose already installed skipping grunt-contrib-htmlmin@~0.2.0 /Users/jnettome/Projects/oarmarinho
+19 verbose already installed skipping grunt-bower-install@~1.4.0 /Users/jnettome/Projects/oarmarinho
+20 verbose already installed skipping grunt-contrib-imagemin@~0.6.0 /Users/jnettome/Projects/oarmarinho
+21 verbose already installed skipping grunt-contrib-watch@~0.6.1 /Users/jnettome/Projects/oarmarinho
+22 verbose already installed skipping grunt-rev@~0.1.0 /Users/jnettome/Projects/oarmarinho
+23 verbose already installed skipping grunt-autoprefixer@~0.7.2 /Users/jnettome/Projects/oarmarinho
+24 verbose already installed skipping grunt-usemin@~2.1.0 /Users/jnettome/Projects/oarmarinho
+25 verbose already installed skipping grunt-mocha@~0.4.10 /Users/jnettome/Projects/oarmarinho
+26 verbose already installed skipping grunt-modernizr@~0.5.2 /Users/jnettome/Projects/oarmarinho
+27 verbose already installed skipping grunt-newer@~0.7.0 /Users/jnettome/Projects/oarmarinho
+28 verbose already installed skipping grunt-svgmin@~0.4.0 /Users/jnettome/Projects/oarmarinho
+29 verbose already installed skipping grunt-concurrent@~0.5.0 /Users/jnettome/Projects/oarmarinho
+30 verbose already installed skipping load-grunt-tasks@~0.4.0 /Users/jnettome/Projects/oarmarinho
+31 verbose already installed skipping time-grunt@~0.3.1 /Users/jnettome/Projects/oarmarinho
+32 verbose already installed skipping jshint-stylish@~0.1.5 /Users/jnettome/Projects/oarmarinho
+33 verbose already installed skipping grunt@~0.4.1 /Users/jnettome/Projects/oarmarinho
+34 verbose already installed skipping grunt-contrib-copy@~0.5.0 /Users/jnettome/Projects/oarmarinho
+35 verbose already installed skipping grunt-contrib-concat@~0.3.0 /Users/jnettome/Projects/oarmarinho
+36 silly resolved []
+37 info build /Users/jnettome/Projects/oarmarinho
+38 verbose linkStuff [ false, false, false, '/Users/jnettome/Projects' ]
+39 info linkStuff oarmarinho@0.0.0
+40 verbose linkBins oarmarinho@0.0.0
+41 verbose linkMans oarmarinho@0.0.0
+42 verbose rebuildBundles oarmarinho@0.0.0
+43 verbose rebuildBundles [ '.bin',
+43 verbose rebuildBundles   'grunt',
+43 verbose rebuildBundles   'grunt-autoprefixer',
+43 verbose rebuildBundles   'grunt-bower-install',
+43 verbose rebuildBundles   'grunt-concurrent',
+43 verbose rebuildBundles   'grunt-contrib-clean',
+43 verbose rebuildBundles   'grunt-contrib-concat',
+43 verbose rebuildBundles   'grunt-contrib-connect',
+43 verbose rebuildBundles   'grunt-contrib-copy',
+43 verbose rebuildBundles   'grunt-contrib-cssmin',
+43 verbose rebuildBundles   'grunt-contrib-htmlmin',
+43 verbose rebuildBundles   'grunt-contrib-imagemin',
+43 verbose rebuildBundles   'grunt-contrib-jshint',
+43 verbose rebuildBundles   'grunt-contrib-less',
+43 verbose rebuildBundles   'grunt-contrib-uglify',
+43 verbose rebuildBundles   'grunt-contrib-watch',
+43 verbose rebuildBundles   'grunt-mocha',
+43 verbose rebuildBundles   'grunt-modernizr',
+43 verbose rebuildBundles   'grunt-newer',
+43 verbose rebuildBundles   'grunt-rev',
+43 verbose rebuildBundles   'grunt-svgmin',
+43 verbose rebuildBundles   'grunt-usemin',
+43 verbose rebuildBundles   'jshint-stylish',
+43 verbose rebuildBundles   'load-grunt-tasks',
+43 verbose rebuildBundles   'time-grunt' ]
+44 info install oarmarinho@0.0.0
+45 info postinstall oarmarinho@0.0.0
+46 info prepublish oarmarinho@0.0.0
+47 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/gifsicle/node_modules/bin-build/node_modules/download requires through2@'^0.4.0' but will load
+47 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/through2,
+47 warn unmet dependency which is version 0.4.2
+48 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/decompress requires map-key@'^0.1.1' but will load
+48 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/map-key,
+48 warn unmet dependency which is version 0.1.4
+49 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/decompress requires tempfile@'^0.1.2' but will load
+49 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/gifsicle/node_modules/bin-build/node_modules/tempfile,
+49 warn unmet dependency which is version 0.1.3
+50 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/extname requires map-key@'^0.1.1' but will load
+50 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/map-key,
+50 warn unmet dependency which is version 0.1.4
+51 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download requires through2@'^0.4.0' but will load
+51 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/through2,
+51 warn unmet dependency which is version 0.4.2
+52 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress requires map-key@'^0.1.1' but will load
+52 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/map-key,
+52 warn unmet dependency which is version 0.1.4
+53 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/extname requires map-key@'^0.1.1' but will load
+53 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/map-key,
+53 warn unmet dependency which is version 0.1.4
+54 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download requires through2@'^0.4.0' but will load
+54 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/through2,
+54 warn unmet dependency which is version 0.4.2
+55 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/decompress requires map-key@'^0.1.1' but will load
+55 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/map-key,
+55 warn unmet dependency which is version 0.1.4
+56 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/decompress requires tempfile@'^0.1.2' but will load
+56 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/tempfile,
+56 warn unmet dependency which is version 0.1.3
+57 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/extname requires map-key@'^0.1.1' but will load
+57 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/map-key,
+57 warn unmet dependency which is version 0.1.4
+58 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download requires through2@'^0.4.0' but will load
+58 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/through2,
+58 warn unmet dependency which is version 0.4.2
+59 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress requires map-key@'^0.1.1' but will load
+59 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/map-key,
+59 warn unmet dependency which is version 0.1.4
+60 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/extname requires map-key@'^0.1.1' but will load
+60 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/map-key,
+60 warn unmet dependency which is version 0.1.4
+61 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/optipng-bin/node_modules/bin-build/node_modules/download requires through2@'^0.4.0' but will load
+61 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/through2,
+61 warn unmet dependency which is version 0.4.2
+62 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress requires map-key@'^0.1.1' but will load
+62 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/map-key,
+62 warn unmet dependency which is version 0.1.4
+63 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress requires tempfile@'^0.1.2' but will load
+63 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/optipng-bin/node_modules/bin-build/node_modules/tempfile,
+63 warn unmet dependency which is version 0.1.3
+64 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/extname requires map-key@'^0.1.1' but will load
+64 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/map-key,
+64 warn unmet dependency which is version 0.1.4
+65 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download requires through2@'^0.4.0' but will load
+65 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/through2,
+65 warn unmet dependency which is version 0.4.2
+66 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress requires map-key@'^0.1.1' but will load
+66 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/map-key,
+66 warn unmet dependency which is version 0.1.4
+67 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/extname requires map-key@'^0.1.1' but will load
+67 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/map-key,
+67 warn unmet dependency which is version 0.1.4
+68 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/bin-check requires executable@'^0.1.0' but will load
+68 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/executable,
+68 warn unmet dependency which is version 0.1.3
+69 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download requires through2@'^0.4.0' but will load
+69 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/through2,
+69 warn unmet dependency which is version 0.4.2
+70 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress requires map-key@'^0.1.1' but will load
+70 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/map-key,
+70 warn unmet dependency which is version 0.1.4
+71 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress requires tempfile@'^0.1.2' but will load
+71 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/tempfile,
+71 warn unmet dependency which is version 0.1.3
+72 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/extname requires map-key@'^0.1.1' but will load
+72 warn unmet dependency /Users/jnettome/Projects/oarmarinho/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/map-key,
+72 warn unmet dependency which is version 0.1.4
+73 error peerinvalid The package grunt does not satisfy its siblings' peerDependencies requirements!
+73 error peerinvalid Peer grunt-contrib-concat@0.3.0 wants grunt@~0.4.0
+73 error peerinvalid Peer grunt-contrib-copy@0.5.0 wants grunt@~0.4.0
+73 error peerinvalid Peer grunt-contrib-clean@0.5.0 wants grunt@~0.4.0
+73 error peerinvalid Peer grunt-newer@0.7.0 wants grunt@~0.4.1
+73 error peerinvalid Peer grunt-usemin@2.1.1 wants grunt@>=0.4.0
+73 error peerinvalid Peer grunt-concurrent@0.5.0 wants grunt@~0.4.0
+73 error peerinvalid Peer grunt-contrib-htmlmin@0.2.0 wants grunt@~0.4.0
+73 error peerinvalid Peer grunt-autoprefixer@0.7.6 wants grunt@~0.4.2
+73 error peerinvalid Peer grunt-bower-install@1.4.1 wants grunt@~0.4.0
+73 error peerinvalid Peer grunt-contrib-connect@0.7.1 wants grunt@~0.4.0
+73 error peerinvalid Peer grunt-contrib-watch@0.6.1 wants grunt@~0.4.0
+73 error peerinvalid Peer grunt-svgmin@0.4.0 wants grunt@~0.4.0
+73 error peerinvalid Peer grunt-contrib-cssmin@0.9.0 wants grunt@~0.4.1
+73 error peerinvalid Peer grunt-contrib-jshint@0.9.2 wants grunt@~0.4.0
+73 error peerinvalid Peer grunt-contrib-uglify@0.4.1 wants grunt@~0.4.0
+73 error peerinvalid Peer grunt-contrib-less@0.11.4 wants grunt@~0.4.0
+73 error peerinvalid Peer grunt-mocha@0.4.11 wants grunt@~0.4
+73 error peerinvalid Peer grunt-contrib-imagemin@0.6.1 wants grunt@^0.4.0
+74 error System Darwin 13.3.0
+75 error command "node" "/usr/local/bin/npm" "install" "."
+76 error cwd /Users/jnettome/Projects/oarmarinho
+77 error node -v v0.10.30
+78 error npm -v 1.4.23
+79 error code EPEERINVALID
+80 verbose exit [ 1, true ]
