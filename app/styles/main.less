@@ -5,6 +5,14 @@
 // endbower
 @import 'variables';
 
+.container {
+    .products-row {
+        z-index: 10;
+        position: relative;
+        background: #fff;
+    }
+}
+
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
@@ -186,7 +194,7 @@ body {
 
 
 
-.latest-products {
+.latest-products, .products-row {
     .page-header {
         margin: -20px 0px 40px;
         border-bottom: 0;
@@ -249,47 +257,69 @@ body {
 
 }
 
-
-
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 20px;
-  text-align: center;
-}
-.marketing h2 {
-  font-weight: normal;
-}
-.marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
+.double-line {
+    margin: 20px 0;
+    hr {
+        margin: 0;
+        color: @brand-primary;
+        border-color: @brand-primary;
+        padding: 1px 0;
+    }
 }
 
-
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
+.featurette {
+    .feature {
+        background: @brand-primary;
+    }
 }
 
 
 
-/* RESPONSIVE CSS
--------------------------------------------------- */
+/* section base class */
+.section {
+    height: 230px;
+    margin-bottom: 60px;
+    position: relative;
 
+    .box-shadow(0 1px -10px rgba(0,0,0,.55));
 
-@media (min-width: 992px) {
-  .featurette-heading {
-    margin-top: 120px;
-  }
+    h1 {
+        font-size: 58px;
+        font-weight: 200;
+        text-align: center;
+        z-index: 10;
+        position: relative;
+
+        top: 40px;
+
+        color: #fff;
+        text-shadow: 0px 0px 15px rgba(0,0,0,.85);
+    }
+
+    .btn {
+        z-index: 10;
+        position: relative;
+
+        border-radius: 30px;
+        padding: 5px 15px;
+        border: 0;
+        color: @gray;
+        top: 50px;
+        box-shadow: 0px 0px 15px rgba(0,0,0,.85);
+    }
+
+    .section .item {
+      height: 230px;
+      background-color: #777;
+    }
+
+    .section-inner > .item > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        background-size: cover;
+        width: 100%;
+
+    }
 }
