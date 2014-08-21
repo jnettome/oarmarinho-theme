@@ -133,10 +133,40 @@ body {
 .carousel {
   height: 621px;
   margin-bottom: 60px;
+  .box-shadow(0 0 1px -10px rgba(0,0,0,.45));
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+  top: 200px;
+  position: relative;
+  left: 0;
+  text-align: right;
+
+  h1 {
+    font-size: 72px;
+  }
+
+  p.lead {
+    font-size: 29px;
+    letter-spacing: 1px;
+  }
+
+  .btn-primary {
+    margin-right: 130px;
+    border-radius: 30px;
+    padding: 5px 15px;
+  }
+
+  &.left-content {
+    text-align: left;
+    left: 0;
+    position: relative;
+
+    .btn-primary {
+        margin-left: 130px;
+    }
+  }
 }
 
 /* Declare heights because of positioning of img element */
