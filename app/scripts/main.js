@@ -1,1 +1,4 @@
-console.log('\'Allo \'Allo!');
+$('#myTab a').click(function (e) {
+	e.preventDefault();
+	$(this).tab('show');
+})
