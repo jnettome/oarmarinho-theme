@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600);
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
 // bower:less
 @import './bower_components/bootstrap/less/bootstrap';
@@ -373,7 +373,7 @@ body {
         z-index: 10;
         position: relative;
 
-        top: 2vw;
+        top: 8vh;
         margin-bottom: 1.5vw;
 
         color: #fff;
@@ -388,7 +388,7 @@ body {
         padding: 5px 15px;
         border: 0;
         color: @gray;
-        top: 2vw;
+        top: 8vh;
         font-size: 3.2vh;
         box-shadow: 0px 0px 15px rgba(0,0,0,.85);
     }
@@ -542,6 +542,21 @@ body {
         color: @brand-primary;
         margin-bottom: -10px;
     }
+    a {
+        background-repeat: no-repeat;
+        background-position: center left;
+        padding-left: 25px !important;
+    }
+
+    .bl {
+        background-image: url(/images/icon-blog-footer.gif);
+    }
+    .fb {
+        background-image: url(/images/icon-facebook-footer.gif);
+    }
+    .ig {
+        background-image: url(/images/icon-instagram-footer.gif);
+    }
     .nav-stacked {
         margin-top: -10px;
         li > a{
@@ -567,17 +582,13 @@ body {
     }
 
     .branding {
-        &:before {
-            top: 15px;
-            bottom: 15px;
-            left: 0;
-            right: 50%;
-            -moz-border-radius: 20px;
-            border-radius: 20px;
-            -webkit-box-shadow: 0 -6px 35px rgba(0,0,0,0.2);
-            -moz-box-shadow: 0 -6px 35px rgba(0,0,0,0.2);
-            box-shadow: 0 -6px 35px rgba(0,0,0,0.2);
-        }
+
+        position: relative;
+        padding-bottom: 10px;
+        background: #ececec;
+        -webkit-box-shadow: -5px 0px 7px -6px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: -5px 0px 7px -6px rgba(0, 0, 0, 0.2);
+        box-shadow: -5px 0px 7px -6px rgba(0, 0, 0, 0.2);
 
         .text-center();
 
@@ -592,9 +603,19 @@ body {
             span {
                 color: @brand-primary;
                 font-weight: bold;
+                background-repeat: no-repeat;
+                background-position: center left;
+                padding-left: 25px;
+            }
+
+            .em {
+                background-image: url(/images/icon-email-footer.gif);
+            }
+            .cn {
+                background-image: url(/images/icon-contact-footer.gif);
             }
         }
-        // .box-shadow(inset -25px 0 10px 0 rgba(0,0,0,0.04));
+
     }
 }
 
